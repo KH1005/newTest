@@ -27,10 +27,10 @@ public class BasketController {
 	
 	private List<BasketModel> basketList = new ArrayList<BasketModel>();
 
+	//dddd
 	
 	
-	
-	/*Àå¹Ù±¸´Ï¿¡ Ãß°¡*/
+	/*ï¿½ï¿½Ù±ï¿½ï¿½Ï¿ï¿½ ï¿½ß°ï¿½*/
 	@RequestMapping(value="goods/basketAdd.dog")
 	public ModelAndView basketAdd(HttpServletRequest request, GoodsModel goodsModel){
 		
@@ -62,7 +62,7 @@ public class BasketController {
 	}
 
 	
-	/*Àå¹Ù±¸´Ï ¸®½ºÆ®*/
+	/*ï¿½ï¿½Ù±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®*/
 	@RequestMapping(value="basket/basketList.dog")
 	public ModelAndView basketList(HttpServletRequest request, HttpSession session){
 		
@@ -88,7 +88,7 @@ public class BasketController {
 	}
 	
 	
-	/*Àå¹Ù±¸´Ï »èÁ¦*/
+	/*ï¿½ï¿½Ù±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½*/
 	@RequestMapping(value="basket/basketdelete.dog")
 	public ModelAndView deleteBasket(HttpServletRequest request, BasketModel basketModel){
 		

@@ -11,8 +11,13 @@ package com.mycom.admin;
 
 
 
+<<<<<<< HEAD
 //바꾼내용이 뭘까요?? 
 import java.io.File;
+=======
+//sdfsfsds
+import java.io.File;//asd
+>>>>>>> ce53c2c41a91e84ca4cc7aa181ec4b6a230adcfe
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -50,7 +55,7 @@ import com.mycom.util.Paging;
 
 //뭘바꿀까?
 
-
+//ssasas
 @Controller	//컴포넌트 스캔을 등록해두었기때문에 자동으로 빈 객체로 만들어진다.
 @RequestMapping("/admin")
 public class AdminController {
@@ -74,7 +79,7 @@ public class AdminController {
 	
 	@Resource
 	private PetService petService;
-	
+	//이도은짱
 	@Resource
 	private QnAService qnAService;
 	
