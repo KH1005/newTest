@@ -11,7 +11,7 @@ package com.mycom.admin;
 
 
 
-
+//sdfsfsds
 import java.io.File;//asd
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -49,7 +49,7 @@ import com.mycom.review.ReviewService;
 import com.mycom.util.Paging;
 
 
-///ss
+//ssasas
 @Controller	//컴포넌트 스캔을 등록해두었기때문에 자동으로 빈 객체로 만들어진다.
 @RequestMapping("/admin")
 public class AdminController {
