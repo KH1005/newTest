@@ -49,7 +49,7 @@ import com.mycom.review.ReviewService;
 import com.mycom.util.Paging;
 
 
-
+///ss
 @Controller	//컴포넌트 스캔을 등록해두었기때문에 자동으로 빈 객체로 만들어진다.
 @RequestMapping("/admin")
 public class AdminController {
@@ -73,7 +73,7 @@ public class AdminController {
 	
 	@Resource
 	private PetService petService;
-	
+	//이도은짱
 	@Resource
 	private QnAService qnAService;
 	

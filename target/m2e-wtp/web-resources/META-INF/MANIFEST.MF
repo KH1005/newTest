@@ -1,5 +1,14 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: NAWON
+=======
+<<<<<<< HEAD
+Built-By: ￬ﾝﾴ￫ﾏﾄ￬ﾝﾀ
+Build-Jdk: 1.8.0_171
+=======
+Built-By: user
+>>>>>>> b5192634aeddae430c496222d9a9ad7604f78f16
 Build-Jdk: 1.8.0_161
+>>>>>>> dec316780935756594233b6cf70ef317235c10c2
 Created-By: Maven Integration for Eclipse
 
