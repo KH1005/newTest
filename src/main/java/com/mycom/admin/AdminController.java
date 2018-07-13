@@ -73,7 +73,7 @@ public class AdminController {
 	
 	@Resource
 	private PetService petService;
-	
+	//이도은짱
 	@Resource
 	private QnAService qnAService;
 	
